@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Code Insight",
+  "version": "1.0",
+  "description": "AI-powered code repository analysis tool",
+  "permissions": ["activeTab"],
+  "host_permissions": [
+    "https://github.com/*",
+    "http://localhost:5000/*"
+  ],
+  "content_scripts": [{
+    "matches": ["https://github.com/*"],
+    "js": ["content.js"],
+    "css": ["sidebar.css"],
+    "run_at": "document_end"
+  }]
+}
