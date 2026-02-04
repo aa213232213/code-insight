@@ -23,10 +23,8 @@
 - [9. API](#9-api)
 - [10. 开发与调试](#10-开发与调试)
 - [11. 常见问题与排查（FAQ / Troubleshooting）](#11-常见问题与排查faq--troubleshooting)
-- [12. Roadmap](#12-roadmap)
-- [13. Contributing](#13-contributing)
-- [14. Security](#14-security)
-- [15. License](#15-license)
+- [12. Security](#14-security)
+- [13. License](#15-license)
 
 ---
 
@@ -223,12 +221,7 @@ ollama serve 是否启动
 
 优先使用更稳定网络或启用代理
 
-
-
 12. Security
-.env 不要提交到仓库（建议加入 .gitignore）
-
-不要在日志里输出完整 Token
 
 Token 建议最小权限原则
 
